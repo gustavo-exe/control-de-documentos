@@ -10,7 +10,7 @@
           <mat-label>Buscar</mat-label>
           <input matInput placeholder="Carta, reporte..." #inputSearch (keyup)="applyFilter($event)" >
         </mat-form-field>
-        <button mat-raised-button color="primary">Nuevo documento</button>
+        <button mat-raised-button color="primary"  [routerLink]="['/documentos/detail']">Nuevo documento</button>
 
       </div>
 

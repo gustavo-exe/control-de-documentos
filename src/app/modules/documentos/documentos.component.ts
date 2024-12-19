@@ -6,7 +6,6 @@ import { MatTableDataSource } from '@angular/material/table';
 @Component({
   selector: 'app-documentos',
   templateUrl: './documentos.component.html',
-  styleUrls: ['./documentos.component.scss']
 })
 export class DocumentosComponent {
   displayedColumns: string[] = ['id', 'nombre', 'descripcion', 'fechaCreacion', 'creador', 'estado', 'actions'];
